@@ -6,16 +6,16 @@ import android.security.keystore.UserNotAuthenticatedException;
 import android.util.Base64;
 import android.util.Log;
 
-import com.etzwallet.core.BRCoreKey;
-import com.etzwallet.core.BRCoreMasterPubKey;
-import com.etzwallet.presenter.interfaces.BRAuthCompletion;
-import com.etzwallet.tools.manager.BRSharedPrefs;
-import com.etzwallet.tools.security.AuthManager;
-import com.etzwallet.tools.security.BRKeyStore;
-import com.etzwallet.tools.security.PostAuth;
-import com.etzwallet.tools.threads.executor.BRExecutor;
-import com.etzwallet.tools.util.BRConstants;
-import com.etzwallet.tools.util.Utils;
+import com.msmwallet.core.BRCoreKey;
+import com.msmwallet.core.BRCoreMasterPubKey;
+import com.msmwallet.presenter.interfaces.BRAuthCompletion;
+import com.msmwallet.tools.manager.BRSharedPrefs;
+import com.msmwallet.tools.security.AuthManager;
+import com.msmwallet.tools.security.BRKeyStore;
+import com.msmwallet.tools.security.PostAuth;
+import com.msmwallet.tools.threads.executor.BRExecutor;
+import com.msmwallet.tools.util.BRConstants;
+import com.msmwallet.tools.util.Utils;
 import com.platform.APIClient;
 import com.platform.middlewares.plugins.WalletPlugin;
 

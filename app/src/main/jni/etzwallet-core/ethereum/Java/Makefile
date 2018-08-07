@@ -80,12 +80,12 @@ compile: $(JNI_LIB) java_comp
 
 test: $(JNI_LIB) java_comp
 	java -Xss1m -Dlight.node.test -classpath build -Djava.library.path=. \
-		 com.etzwallet.core.ethereum.test.BREthereumLightNodeClientTest $(ARGS) # -D.
+		 com.msmwallet.core.ethereum.test.BREthereumLightNodeClientTest $(ARGS) # -D.
 
 debug: $(JNI_LIB) java_comp
 	java -Xss1m -Xdebug -Xrunjdwp:transport=dt_socket,address=8008,server=y,suspend=n \
 		 -Dlight.node.test -classpath build -Djava.library.path=. \
-		 com.etzwallet.core.ethereum.test.BREthereumLightNodeClientTest $(ARGS) # -D.
+		 com.msmwallet.core.ethereum.test.BREthereumLightNodeClientTest $(ARGS) # -D.
 
 $(JNI_LIB): $(JNI_OBJS) $(CORE_OBJS)
 	cc -dynamiclib -o $(JNI_LIB) $(JNI_OBJS) $(CORE_OBJS)
@@ -97,7 +97,7 @@ java_comp:	FORCE
 jni_hdr: java_comp
 	@(cd build/com/etzwallet/core/ethereum; \
 	  for class in BREthereum*.class; do \
-	      javah -jni -d $(DIR) -classpath $(DIR)/build com.etzwallet.core.ethereum.$${class%%.class}; \
+	      javah -jni -d $(DIR) -classpath $(DIR)/build com.msmwallet.core.ethereum.$${class%%.class}; \
 	  done)
 	@rm -f com_etzwallet_core_ethereum_BREthereum*_*.h .h
 
@@ -127,6 +127,6 @@ FORCE:
 # (cd ${APP}/app/build/intermediates/classes/debug/com/etzwallet/core; for class in BRCore*.class; do \
 #     javah -jni -d ${APP}/app/src/main/cpp/etzwallet-core/Java/ \
 #	-classpath ${APP}/app/build/intermediates/classes/debug/ \
-#	com.etzwallet.core.${class%%.class}; \
+#	com.msmwallet.core.${class%%.class}; \
 #	done)
 # 15RBcXQMTfebbAfUFeBbcDfs1fVvPayWdU

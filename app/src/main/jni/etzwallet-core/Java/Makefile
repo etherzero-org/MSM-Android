@@ -80,12 +80,12 @@ compile: $(JNI_LIB) java_comp
 
 test: $(JNI_LIB) java_comp
 	java -Xss1m -Dwallet.test -classpath build -Djava.library.path=. \
-		 com.etzwallet.core.test.BRWalletManager $(ARGS) # -D.
+		 com.msmwallet.core.test.BRWalletManager $(ARGS) # -D.
 
 debug: $(JNI_LIB) java_comp
 	java -Xss1m -Xdebug -Xrunjdwp:transport=dt_socket,address=8008,server=y,suspend=n \
 		 -Dwallet.test -classpath build -Djava.library.path=. \
-		 com.etzwallet.core.test.BRWalletManager $(ARGS) # -D.
+		 com.msmwallet.core.test.BRWalletManager $(ARGS) # -D.
 
 $(JNI_LIB): $(JNI_OBJS) $(CORE_OBJS)
 	cc -dynamiclib -o $(JNI_LIB) $(JNI_OBJS) $(CORE_OBJS)
@@ -97,7 +97,7 @@ java_comp:	FORCE
 jni_hdr: java_comp
 	@(cd build/com/etzwallet/core; \
 	  for class in BRCore*.class; do \
-	      javah -jni -d $(DIR) -classpath $(DIR)/build com.etzwallet.core.$${class%%.class}; \
+	      javah -jni -d $(DIR) -classpath $(DIR)/build com.msmwallet.core.$${class%%.class}; \
 	  done)
 	@rm -f com_etzwallet_core_BRCoreWalletManager.h com_etzwallet_core_BRCore*_*.h .h
 
@@ -130,6 +130,6 @@ FORCE:
 # (cd ${APP}/app/build/intermediates/classes/debug/com/etzwallet/core; for class in BRCore*.class; do \
 #     javah -jni -d ${APP}/app/src/main/cpp/etzwallet-core/Java/ \
 #	-classpath ${APP}/app/build/intermediates/classes/debug/ \
-#	com.etzwallet.core.${class%%.class}; \
+#	com.msmwallet.core.${class%%.class}; \
 #	done)
 # 15RBcXQMTfebbAfUFeBbcDfs1fVvPayWdU

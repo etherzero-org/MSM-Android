@@ -43,7 +43,7 @@
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="81dp"/>
 
-            <com.etzwallet.presenter.customviews.BRText
+            <com.msmwallet.presenter.customviews.BRText
                 android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -89,7 +89,7 @@
             android:orientation="horizontal"
             android:weightSum="2">
 
-            <com.etzwallet.presenter.customviews.BREdit
+            <com.msmwallet.presenter.customviews.BREdit
                 android:id="@+id/address_edit"
                 android:layout_width="wrap_content"
                 android:layout_height="32dp"
@@ -104,7 +104,7 @@
                 android:maxLines="1"
                 />
 
-            <com.etzwallet.presenter.customviews.BRButton
+            <com.msmwallet.presenter.customviews.BRButton
                 android:id="@+id/paste_button"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
@@ -125,7 +125,7 @@
                 app:isBreadButton="true"
                 />
 
-            <com.etzwallet.presenter.customviews.BRButton
+            <com.msmwallet.presenter.customviews.BRButton
                 android:id="@+id/scan"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
@@ -162,7 +162,7 @@
             android:animateLayoutChanges="true"
             android:orientation="horizontal">
 
-            <com.etzwallet.presenter.customviews.BRText
+            <com.msmwallet.presenter.customviews.BRText
                 android:id="@+id/iso_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -176,7 +176,7 @@
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintTop_toTopOf="parent"/>
 
-            <com.etzwallet.presenter.customviews.BREdit
+            <com.msmwallet.presenter.customviews.BREdit
                 android:id="@+id/amount_edit"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -199,7 +199,7 @@
                 app:layout_constraintTop_toTopOf="@+id/iso_text"
                 app:layout_constraintVertical_bias="0.5"/>
 
-            <com.etzwallet.presenter.customviews.BRText
+            <com.msmwallet.presenter.customviews.BRText
                 android:id="@+id/balance_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -211,7 +211,7 @@
                 app:layout_constraintLeft_toLeftOf="@+id/iso_text"
                 app:layout_constraintTop_toTopOf="parent"/>
 
-            <com.etzwallet.presenter.customviews.BRText
+            <com.msmwallet.presenter.customviews.BRText
                 android:id="@+id/fee_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -223,7 +223,7 @@
                 app:layout_constraintLeft_toLeftOf="@+id/iso_text"
                 app:layout_constraintTop_toTopOf="parent"/>
 
-            <com.etzwallet.presenter.customviews.BRButton
+            <com.msmwallet.presenter.customviews.BRButton
                 android:id="@+id/iso_button"
                 android:layout_width="80dp"
                 android:layout_height="50dp"
@@ -248,7 +248,7 @@
 
         </android.support.constraint.ConstraintLayout>
 
-        <!--<com.etzwallet.presenter.customviews.BRLinearLayoutWithCaret
+        <!--<com.msmwallet.presenter.customviews.BRLinearLayoutWithCaret
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:id="@+id/fee_buttons_layout"
             android:layout_width="match_parent"
@@ -259,7 +259,7 @@
             app:strokeColor="@color/extra_light_gray"
             app:withStroke="true">
 
-            <com.etzwallet.presenter.customviews.BRText
+            <com.msmwallet.presenter.customviews.BRText
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -269,7 +269,7 @@
                 android:textColor="@color/almost_black"
                 android:textStyle="bold"/>
 
-            <com.etzwallet.presenter.customviews.BRText
+            <com.msmwallet.presenter.customviews.BRText
                 android:id="@+id/fee_description"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -292,7 +292,7 @@
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/BRText2">
 
-                <com.etzwallet.presenter.customviews.BRButton
+                <com.msmwallet.presenter.customviews.BRButton
                     android:id="@+id/left_button"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
@@ -306,7 +306,7 @@
                     app:isBreadButton="false"
                     />
 
-                <com.etzwallet.presenter.customviews.BRButton
+                <com.msmwallet.presenter.customviews.BRButton
                     android:id="@+id/right_button"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -321,7 +321,7 @@
                     />
             </LinearLayout>
 
-            <com.etzwallet.presenter.customviews.BRText
+            <com.msmwallet.presenter.customviews.BRText
                 android:id="@+id/warning_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -334,7 +334,7 @@
                 />
 
 
-        </com.etzwallet.presenter.customviews.BRLinearLayoutWithCaret>-->
+        </com.msmwallet.presenter.customviews.BRLinearLayoutWithCaret>-->
 
         <View
             android:id="@+id/separator2"
@@ -349,7 +349,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <com.etzwallet.presenter.customviews.BRKeyboard
+            <com.msmwallet.presenter.customviews.BRKeyboard
                 android:id="@+id/keyboard"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -368,7 +368,7 @@
             android:layout_width="match_parent"
             android:layout_height="70dp">
 
-            <com.etzwallet.presenter.customviews.BREdit
+            <com.msmwallet.presenter.customviews.BREdit
                 android:id="@+id/comment_edit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -439,7 +439,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="70dp">
 
-                <com.etzwallet.presenter.customviews.BREdit
+                <com.msmwallet.presenter.customviews.BREdit
                     android:id="@+id/gas_limit"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -467,7 +467,7 @@
                 android:layout_height="70dp"
                 android:orientation="horizontal">
 
-                <com.etzwallet.presenter.customviews.BREdit
+                <com.msmwallet.presenter.customviews.BREdit
                     android:id="@+id/gas_price"
                     android:layout_gravity="center_vertical"
                     android:layout_marginEnd="16dp"
@@ -503,7 +503,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="70dp">
 
-                <com.etzwallet.presenter.customviews.BREdit
+                <com.msmwallet.presenter.customviews.BREdit
                     android:id="@+id/comment_data"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -525,7 +525,7 @@
 
 
 
-        <com.etzwallet.presenter.customviews.BRButton
+        <com.msmwallet.presenter.customviews.BRButton
             android:id="@+id/send_button"
             android:layout_width="match_parent"
             android:layout_height="80dp"

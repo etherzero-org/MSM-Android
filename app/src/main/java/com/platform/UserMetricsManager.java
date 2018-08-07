@@ -4,8 +4,8 @@ package com.platform;
 import android.content.Context;
 import android.util.Log;
 
-import com.etzwallet.BreadApp;
-import com.etzwallet.tools.util.BRConstants;
+import com.msmwallet.BreadApp;
+import com.msmwallet.tools.util.BRConstants;
 
 import org.json.JSONException;
 import org.json.JSONObject;

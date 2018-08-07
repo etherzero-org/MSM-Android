@@ -644,7 +644,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.etzwallet.ethereum;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msmwallet.ethereum;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -668,7 +668,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.etzwallet.ethereum;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msmwallet.ethereum;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -686,7 +686,7 @@
 				DEVELOPMENT_TEAM = Q24R6U6QED;
 				INFOPLIST_FILE = ethereumTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.etzwallet.ethereumTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msmwallet.ethereumTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ethereumTests/ethereumTests-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -705,7 +705,7 @@
 				DEVELOPMENT_TEAM = Q24R6U6QED;
 				INFOPLIST_FILE = ethereumTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.etzwallet.ethereumTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msmwallet.ethereumTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ethereumTests/ethereumTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;

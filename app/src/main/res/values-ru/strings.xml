@@ -7,7 +7,7 @@
   <string name="max_power">Максимальная энергия</string>
   <string name="available_power">Доступная энергия</string>
   <!-- App name -->
-  <string name="About.appName.android">EasyETZ</string>
+  <string name="About.appName.android">MSM</string>
   <!-- About screen blog label -->
   <string name="About.blog">Блог</string>
   <!-- About screen footer -->
@@ -23,7 +23,7 @@
   <!-- About screen twitter label -->
   <string name="About.twitter">Twitter</string>
   <!-- About screen wallet ID label -->
-  <string name="About.walletID">Идентификатор EasyETZ для вознаграждений</string>
+  <string name="About.walletID">Идентификатор MSM для вознаграждений</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Закрыть</string>
   <!-- Support center accessibiliy label -->
@@ -69,11 +69,11 @@
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Отпечаток пальца идентифицирован</string>
   <!-- Tell the user where they can enable permissions to access device storage. -->
-  <string name="Android.allowFileSystemAccess">Включите разрешения на хранение в настройках вашего устройства: «Настройки» &gt; «Приложения» &gt; «EasyETZ» &gt; «Разрешения».</string>
+  <string name="Android.allowFileSystemAccess">Включите разрешения на хранение в настройках вашего устройства: «Настройки» &gt; «Приложения» &gt; «MSM» &gt; «Разрешения».</string>
   <!-- The "home" screen is the name of the top level menu for the app. -->
   <string name="Android.BCH.welcome.message">Доступ к BCH в вашем кошельке теперь возможен с главного экрана.</string>
-  <string name="Android.BCH.welcome.title">EasyETZ теперь поддерживает Bitcoin Cash!</string>
-  <string name="Android.screenAlteringMessage">EasyETZ не сможет нормально работать, если не отключить изменяющие экран приложения (такие как Twilight).</string>
+  <string name="Android.BCH.welcome.title">MSM теперь поддерживает Bitcoin Cash!</string>
+  <string name="Android.screenAlteringMessage">MSM не сможет нормально работать, если не отключить изменяющие экран приложения (такие как Twilight).</string>
   <!-- An app that alters the screen ("screen-altering app") has been detected. -->
   <string name="Android.screenAlteringTitle">Обнаружено изменяющее экран приложение</string>
   <!-- JSON Serialization error message -->
@@ -199,11 +199,11 @@
   <!-- You can customize your Face ID Spending Limit from the [menu] -->
   <string name="FaceIDSettings.customizeText">Вы можете индивидуально настроить ваш лимит расходов Face ID от %1$s.</string>
   <!-- Face Id screen label -->
-  <string name="FaceIDSettings.label">Используйте ваше лицо, чтобы разблокировать ваш EasyETZ и отправить деньги в соответствии с установленным лимитом.</string>
+  <string name="FaceIDSettings.label">Используйте ваше лицо, чтобы разблокировать ваш MSM и отправить деньги в соответствии с установленным лимитом.</string>
   <!-- Title of the screen for setting the Face ID Spending Limit -->
   <string name="FaceIDSettings.linkText">Меню лимита расходов Face ID</string>
-  <!-- Setting to turn on Face ID for EasyETZ -->
-  <string name="FaceIDSettings.switchLabel">Включить Face ID для EasyETZ</string>
+  <!-- Setting to turn on Face ID for MSM -->
+  <string name="FaceIDSettings.switchLabel">Включить Face ID для MSM</string>
   <!-- Face ID settings view title -->
   <string name="FaceIDSettings.title">Face ID</string>
   <!-- Instructions on how to turn on face id on the iPhone. Please ensure the name of the menu in this string matches the wording Apple uses in the iPhone menu. -->
@@ -453,7 +453,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 минут</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Если транзакция описывается как \"выполненная\" в биткойн-сети, но не в вашем EasyETZ.</string>
+  <string name="ReScan.body2">Если транзакция описывается как \"выполненная\" в биткойн-сети, но не в вашем MSM.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Вы несколько раз получили ошибку о том, что транзакция отвергнута.</string>
   <!-- Start Sync button label -->
@@ -735,7 +735,7 @@
   <string name="Transaction.sentTo">отправлено по адресу %1$s</string>
   <!-- eg. Starting balance: $50.00 -->
   <string name="Transaction.starting">Начальный баланс: %1$s</string>
-  <!-- e.g. "[The money you paid was a] Fee for token transfer: EasyETZ" (EasyETZ is the token that was transfered) -->
+  <!-- e.g. "[The money you paid was a] Fee for token transfer: MSM" (MSM is the token that was transfered) -->
   <string name="Transaction.tokenTransfer">Сбор за передачу токена: %1$s</string>
   <!-- Waiting to be confirmed string -->
   <string name="Transaction.waiting">Ожидает подтверждения. Некоторые продавцы требуют подтверждения для выполнения транзакции. Предполагаемое время: 1-2 часа.</string>

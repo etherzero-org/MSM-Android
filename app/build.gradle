@@ -7,11 +7,11 @@ android {
 
     defaultConfig {
         testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
-        applicationId = 'com.etzwallet'
+        applicationId = 'com.msmwallet'
         minSdkVersion 23
         targetSdkVersion 27
-        versionCode 4
-        versionName "1.0.1"
+        versionCode 0
+        versionName "1.0.0"
         multiDexEnabled true
 
         // Similar to other properties in the defaultConfig block,
@@ -54,7 +54,7 @@ android {
 
     productFlavors {
         easyetz {
-            applicationId = "com.etzwallet"
+            applicationId = "com.msmwallet"
             dimension "mode"
             resValue "string", "app_name", "ETZ"
             buildConfigField "boolean", "BITCOIN_TESTNET", "false"
