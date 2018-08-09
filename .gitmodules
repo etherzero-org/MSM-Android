@@ -2,5 +2,5 @@
 	path = app/src/main/secp/secp256k1
 	url = https://github.com/bitcoin-core/secp256k1.git
 [submodule "core"]
-	path = app/src/main/jni/etzwallet-core
-	url = https://github.com/breadwallet/etzwallet-core.git
+	path = app/src/main/jni/msmwallet-core
+	url = https://github.com/breadwallet/msmwallet-core.git
