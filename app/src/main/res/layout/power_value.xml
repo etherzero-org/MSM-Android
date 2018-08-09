@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <com.etzwallet.presenter.customviews.BRText
+        <com.msmwallet.presenter.customviews.BRText
 
             android:id="@+id/power_max_text"
             android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <com.etzwallet.presenter.customviews.BRText
+        <com.msmwallet.presenter.customviews.BRText
             android:id="@+id/current_power_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

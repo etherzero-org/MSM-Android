@@ -1,4 +1,4 @@
-<com.etzwallet.presenter.customviews.BRRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.msmwallet.presenter.customviews.BRRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                                         xmlns:app="http://schemas.android.com/apk/res-auto"
                                                         android:id="@+id/layout"
                                                         android:layout_width="match_parent"
@@ -34,7 +34,7 @@
                 android:background="@drawable/ic_close_white_24dp"
                 />
 
-            <com.etzwallet.presenter.customviews.BRText
+            <com.msmwallet.presenter.customviews.BRText
                 android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
 
     </LinearLayout>
 
-    <com.etzwallet.presenter.customviews.BRText
+    <com.msmwallet.presenter.customviews.BRText
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -93,4 +93,4 @@
 
     </ListView>
 
-</com.etzwallet.presenter.customviews.BRRelativeLayout>
+</com.msmwallet.presenter.customviews.BRRelativeLayout>

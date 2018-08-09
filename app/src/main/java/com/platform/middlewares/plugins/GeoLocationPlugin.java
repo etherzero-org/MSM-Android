@@ -9,10 +9,10 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
-import com.etzwallet.BreadApp;
-import com.etzwallet.tools.manager.BRSharedPrefs;
-import com.etzwallet.tools.threads.executor.BRExecutor;
-import com.etzwallet.tools.util.BRConstants;
+import com.msmwallet.BreadApp;
+import com.msmwallet.tools.manager.BRSharedPrefs;
+import com.msmwallet.tools.threads.executor.BRExecutor;
+import com.msmwallet.tools.util.BRConstants;
 import com.platform.APIClient;
 import com.platform.BRHTTPHelper;
 import com.platform.GeoLocationManager;

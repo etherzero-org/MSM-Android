@@ -6,12 +6,12 @@ import android.content.Intent;
 import android.net.Uri;
 import android.util.Log;
 
-import com.etzwallet.BreadApp;
-import com.etzwallet.R;
-import com.etzwallet.presenter.activities.settings.WebViewActivity;
-import com.etzwallet.tools.manager.BRReportsManager;
-import com.etzwallet.tools.util.BRConstants;
-import com.etzwallet.tools.util.Utils;
+import com.msmwallet.BreadApp;
+import com.msmwallet.R;
+import com.msmwallet.presenter.activities.settings.WebViewActivity;
+import com.msmwallet.tools.manager.BRReportsManager;
+import com.msmwallet.tools.util.BRConstants;
+import com.msmwallet.tools.util.Utils;
 import com.platform.APIClient;
 import com.platform.BRHTTPHelper;
 import com.platform.interfaces.Plugin;

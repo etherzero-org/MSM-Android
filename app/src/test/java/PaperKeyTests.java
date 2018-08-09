@@ -1,6 +1,6 @@
 import android.util.Log;
 
-import com.etzwallet.tools.util.Bip39Reader;
+import com.msmwallet.tools.util.Bip39Reader;
 
 import org.apache.commons.io.IOUtils;
 import org.junit.Test;

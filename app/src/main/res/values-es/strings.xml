@@ -8,11 +8,11 @@
   <string name="max_power">Energía máxima</string>
   <string name="available_power">Energía disponible</string>
   <!-- App name -->
-  <string name="About.appName.android">EasyETZ</string>
+  <string name="About.appName.android">MSM</string>
   <!-- About screen blog label -->
   <string name="About.blog">Blog</string>
   <!-- About screen footer -->
-  <string name="About.footer">Hecho por el equipo mundial de EasyETZ. Versión %1$s</string>
+  <string name="About.footer">Hecho por el equipo mundial de MSM. Versión %1$s</string>
   <!-- Privay Policy button label -->
   <string name="About.privacy">Política de privacidad</string>
   <!-- About screen reddit label -->
@@ -24,7 +24,7 @@
   <!-- About screen twitter label -->
   <string name="About.twitter">Twitter</string>
   <!-- About screen wallet ID label -->
-  <string name="About.walletID">ID de Recompensas de EasyETZ</string>
+  <string name="About.walletID">ID de Recompensas de MSM</string>
   <!-- Close modal button accessibility label -->
   <string name="AccessibilityLabels.close">Cerrar</string>
   <!-- Support center accessibiliy label -->
@@ -36,7 +36,7 @@
   <!-- Loading Wallet Message -->
   <string name="Account.loadingMessage">Cargando cartera</string>
   <!-- Default wallet name -->
-  <string name="AccountHeader.defaultWalletName">Mi EasyETZ</string>
+  <string name="AccountHeader.defaultWalletName">Mi MSM</string>
   <!-- Third party keyboard warning -->
   <string name="Alert.customKeyboard.android">Parece que estás usando un teclado de un tercero que puede grabar lo que escribes y robar tu clave de papel. Cambia al teclado predeterminado de Android para obtener protección adicional.</string>
   <!-- Error alert title -->
@@ -44,7 +44,7 @@
   <!-- Keystore error -->
   <string name="Alert.keystore.generic.android">Hay un problema con el almacén de claves de tu sistema operativo Android. Ponte en contacto con support@etherzero.org.</string>
   <!-- KeyStore error, keys are invalidated -->
-  <string name="Alert.keystore.invalidated.android">Tus datos codificados en EasyETZ fueron anulados recientemente debido a que no estaba habilitada tu pantalla de bloqueo de Android.</string>
+  <string name="Alert.keystore.invalidated.android">Tus datos codificados en MSM fueron anulados recientemente debido a que no estaba habilitada tu pantalla de bloqueo de Android.</string>
   <!-- Keystore error title -->
   <string name="Alert.keystore.title.android">Error de Android KeyStore</string>
   <!-- No internet alert message -->
@@ -70,11 +70,11 @@
   <!-- Fingerprint was recognized by the scanner -->
   <string name="Alerts.touchIdSucceeded.android">Huella digital reconocida</string>
   <!-- Tell the user where they can enable permissions to access device storage. -->
-  <string name="Android.allowFileSystemAccess">Activa los permisos de almacenamiento en los ajustes de tu dispositivo: \"Ajustes\" &gt; \"Aplicaciones\" &gt; \"EasyETZ\" &gt; \"Permisos\".</string>
+  <string name="Android.allowFileSystemAccess">Activa los permisos de almacenamiento en los ajustes de tu dispositivo: \"Ajustes\" &gt; \"Aplicaciones\" &gt; \"MSM\" &gt; \"Permisos\".</string>
   <!-- The "home" screen is the name of the top level menu for the app. -->
   <string name="Android.BCH.welcome.message">Puedes acceder a cualquier BCH en tu monedero a través de la pantalla de inicio.</string>
-  <string name="Android.BCH.welcome.title">¡EasyETZ ahora funciona con efectivo de Bitcoin!</string>
-  <string name="Android.screenAlteringMessage">EasyETZ no funcionará correctamente a menos que las aplicaciones que alteran la pantalla (como Twilight) estén desactivadas.</string>
+  <string name="Android.BCH.welcome.title">¡MSM ahora funciona con efectivo de Bitcoin!</string>
+  <string name="Android.screenAlteringMessage">MSM no funcionará correctamente a menos que las aplicaciones que alteran la pantalla (como Twilight) estén desactivadas.</string>
   <!-- An app that alters the screen ("screen-altering app") has been detected. -->
   <string name="Android.screenAlteringTitle">Se ha detectado una aplicación de alteración de pantalla</string>
   <!-- JSON Serialization error message -->
@@ -106,7 +106,7 @@
   <!-- Approve button label -->
   <string name="BitID.approve">Aprobar</string>
   <!-- <sitename> is requesting authentication using your bitcoin wallet -->
-  <string name="BitID.authenticationRequest">%1$s está solicitando autenticación mediante tu cartera EasyETZ</string>
+  <string name="BitID.authenticationRequest">%1$s está solicitando autenticación mediante tu cartera MSM</string>
   <!-- Deny button label -->
   <string name="BitID.deny">Denegar</string>
   <!-- BitID error alert title -->
@@ -190,7 +190,7 @@
   <!-- Email unavailable alert title -->
   <string name="ErrorMessages.emailUnavailableTitle">Correo electrónico no disponible</string>
   <!-- Message that gets shown when we've detected the user has encountered the looping lock-screen bug. (preserve [ ] characters) -->
-  <string name="ErrorMessages.loopingLockScreen.android">EasyETZ no se puede autenticar debido a un error de tu versión de Android. [Por favor pulsa aquí para más información]</string>
+  <string name="ErrorMessages.loopingLockScreen.android">MSM no se puede autenticar debido a un error de tu versión de Android. [Por favor pulsa aquí para más información]</string>
   <!-- Messaging unavailable alert title -->
   <string name="ErrorMessages.messagingUnavailableMessage">Este dispositivo no está configurado para enviar mensajes.</string>
   <!-- Messaging unavailable alert title -->
@@ -200,11 +200,11 @@
   <!-- You can customize your Face ID Spending Limit from the [menu] -->
   <string name="FaceIDSettings.customizeText">Puedes establecer tu límite de gastos con Face ID en el %1$s.</string>
   <!-- Face Id screen label -->
-  <string name="FaceIDSettings.label">Utiliza la cara para desbloquear EasyETZ y enviar dinero hasta un límite establecido.</string>
+  <string name="FaceIDSettings.label">Utiliza la cara para desbloquear MSM y enviar dinero hasta un límite establecido.</string>
   <!-- Title of the screen for setting the Face ID Spending Limit -->
   <string name="FaceIDSettings.linkText">Pantalla del límite de gastos con Face ID</string>
-  <!-- Setting to turn on Face ID for EasyETZ -->
-  <string name="FaceIDSettings.switchLabel">Activar Face ID para EasyETZ</string>
+  <!-- Setting to turn on Face ID for MSM -->
+  <string name="FaceIDSettings.switchLabel">Activar Face ID para MSM</string>
   <!-- Face ID settings view title -->
   <string name="FaceIDSettings.title">Face ID</string>
   <!-- Instructions on how to turn on face id on the iPhone. Please ensure the name of the menu in this string matches the wording Apple uses in the iPhone menu. -->
@@ -254,13 +254,13 @@
   <!-- Caption for graphics -->
   <string name="Import.leftCaption">Clave privada</string>
   <!-- Import wallet intro screen message -->
-  <string name="Import.message">Las claves privadas a menudo se imprimen en papel como códigos QR y se usan para almacenar fondos sin conexión. Canjea una clave privada para transferir todo el dinero que controla a tu monedero EasyETZ con una sola transacción.</string>
+  <string name="Import.message">Las claves privadas a menudo se imprimen en papel como códigos QR y se usan para almacenar fondos sin conexión. Canjea una clave privada para transferir todo el dinero que controla a tu monedero MSM con una sola transacción.</string>
   <!-- Enter password alert view title -->
   <string name="Import.password">Esta clave privada está protegida con una contraseña.</string>
   <!-- password textfield placeholder -->
   <string name="Import.passwordPlaceholder">contraseña</string>
   <!-- Caption for graphics -->
-  <string name="Import.rightCaption">Tu cartera EasyETZ</string>
+  <string name="Import.rightCaption">Tu cartera MSM</string>
   <!-- Scan Private key button label -->
   <string name="Import.scan">Escanear clave privada</string>
   <!-- Import wallet success alert title -->
@@ -280,9 +280,9 @@
   <!-- Ignore jailbreak warning button -->
   <string name="JailbreakWarnings.ignore">Ignorar</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithBalance">SEGURIDAD DEL DISPOSITIVO COMPROMETIDA\nCualquier aplicación \"jailbreak\" puede acceder a los datos del llavero de EasyETZ y robar tus bitcoins. Borra esta cartera de inmediato y restáurala en un dispositivo seguro.</string>
+  <string name="JailbreakWarnings.messageWithBalance">SEGURIDAD DEL DISPOSITIVO COMPROMETIDA\nCualquier aplicación \"jailbreak\" puede acceder a los datos del llavero de MSM y robar tus bitcoins. Borra esta cartera de inmediato y restáurala en un dispositivo seguro.</string>
   <!-- Jailbreak warning message -->
-  <string name="JailbreakWarnings.messageWithoutBalance">SEGURIDAD DEL DISPOSITIVO COMPROMETIDA\nCualquier aplicación \"jailbreak\" puede acceder a los datos del llavero de EasyETZ y robar tus bitcoins. Usa EasyETZ únicamente en un dispositivo sin jailbreak.</string>
+  <string name="JailbreakWarnings.messageWithoutBalance">SEGURIDAD DEL DISPOSITIVO COMPROMETIDA\nCualquier aplicación \"jailbreak\" puede acceder a los datos del llavero de MSM y robar tus bitcoins. Usa MSM únicamente en un dispositivo sin jailbreak.</string>
   <!-- Jailbreak warning title -->
   <string name="JailbreakWarnings.title">AVISO</string>
   <!-- Wipe wallet button -->
@@ -290,7 +290,7 @@
   <!-- Location services disabled error -->
   <string name="LocationPlugin.disabled">Los servicios de ubicación están desactivados.</string>
   <!-- No permissions for location services -->
-  <string name="LocationPlugin.notAuthorized">EasyETZ no tiene permiso para acceder a los servicios de ubicación.</string>
+  <string name="LocationPlugin.notAuthorized">MSM no tiene permiso para acceder a los servicios de ubicación.</string>
   <!-- Wallet creation date prefix -->
   <string name="ManageWallet.creationDatePrefix">Has creado una cartera en %1$s</string>
   <!-- Manage wallet description text -->
@@ -376,7 +376,7 @@
   <!-- Transaction rejected prompt title -->
   <string name="Prompts.RecommendRescan.title">Transacción rechazada</string>
   <!-- Share data prompt body -->
-  <string name="Prompts.ShareData.body">Ayuda a mejorar EasyETZ compartiendo tus datos anónimos con nosotros</string>
+  <string name="Prompts.ShareData.body">Ayuda a mejorar MSM compartiendo tus datos anónimos con nosotros</string>
   <!-- Share data prompt title -->
   <string name="Prompts.ShareData.title">Compartir datos anónimos</string>
   <!-- Enable touch ID prompt body -->
@@ -390,11 +390,11 @@
   <!-- Button on fingerprint prompt so the user can enter their PIN instead -->
   <string name="Prompts.TouchId.usePin.android">PIN</string>
   <!-- Upgrade PIN prompt body. -->
-  <string name="Prompts.UpgradePin.body">EasyETZ se ha actualizado y ahora utiliza un PIN de 6 dígitos. Toca aquí para actualizar.</string>
+  <string name="Prompts.UpgradePin.body">MSM se ha actualizado y ahora utiliza un PIN de 6 dígitos. Toca aquí para actualizar.</string>
   <!-- Upgrade PIN prompt title. -->
   <string name="Prompts.UpgradePin.title">Actualizar PIN</string>
   <!-- Notifications will be added later but users can set their preferences now, which is why we specify "in the future". -->
-  <string name="PushNotifications.body">Activa las notificaciones para recibir mensajes especiales de EasyETZ en el futuro.</string>
+  <string name="PushNotifications.body">Activa las notificaciones para recibir mensajes especiales de MSM en el futuro.</string>
   <!-- Push notifications toggle switch label -->
   <string name="PushNotifications.label">Notificaciones push</string>
   <!-- Push notifications are off label -->
@@ -425,7 +425,7 @@
   <!-- Enter paper key instruction -->
   <string name="RecoverWallet.instruction">Introducir clave en papel</string>
   <!-- Recover wallet intro -->
-  <string name="RecoverWallet.intro">Recupera tu EasyETZ con la clave en papel.</string>
+  <string name="RecoverWallet.intro">Recupera tu MSM con la clave en papel.</string>
   <!-- Invalid paper key message -->
   <string name="RecoverWallet.invalid">La clave en papel que acabas de introducir no es válida. Vuelve a comprobar cada palabra e inténtalo de nuevo.</string>
   <!-- Previous button accessibility label -->
@@ -454,7 +454,7 @@
   <!-- extimated time -->
   <string name="ReScan.body1">20-45 minutos</string>
   <!-- Syncing explanation -->
-  <string name="ReScan.body2">Si una transacción se muestra como completada en la red de EtherZero pero no en EasyETZ.</string>
+  <string name="ReScan.body2">Si una transacción se muestra como completada en la red de EtherZero pero no en MSM.</string>
   <!-- Syncing explanation -->
   <string name="ReScan.body3">Obtienes un error repetidamente que dice que tu transacción ha sido rechazada.</string>
   <!-- Start Sync button label -->
@@ -482,17 +482,17 @@
   <!-- Security Center Info -->
   <string name="SecurityCenter.info">Activa todas las funciones de seguridad para una protección máxima.</string>
   <!-- Paper Key button description -->
-  <string name="SecurityCenter.paperKeyDescription">La única manera de acceder a tu EasyETZ si pierdes o actualizas tu teléfono.</string>
+  <string name="SecurityCenter.paperKeyDescription">La única manera de acceder a tu MSM si pierdes o actualizas tu teléfono.</string>
   <!-- Paper Key button title -->
   <string name="SecurityCenter.paperKeyTitle">Clave en papel</string>
   <!-- PIN button description -->
-  <string name="SecurityCenter.pinDescription">Protege tu EasyETZ de usuarios no autorizados.</string>
+  <string name="SecurityCenter.pinDescription">Protege tu MSM de usuarios no autorizados.</string>
   <!-- PIN button title -->
   <string name="SecurityCenter.pinTitle">PIN de 6 dígitos</string>
   <!-- Security Center Title -->
   <string name="SecurityCenter.title">Centro de seguridad</string>
   <!-- Touch ID button description -->
-  <string name="SecurityCenter.touchIdDescription">Desbloquea tu EasyETZ de forma cómoda y envía dinero hasta un límite establecido.</string>
+  <string name="SecurityCenter.touchIdDescription">Desbloquea tu MSM de forma cómoda y envía dinero hasta un límite establecido.</string>
   <!-- Touch ID button title -->
   <string name="SecurityCenter.touchIdTitle">Touch ID</string>
   <!-- Security center fingerprint authentication button -->
@@ -502,13 +502,13 @@
   <!-- Balance: $4.00 -->
   <string name="Send.balance">Saldo: %1$s</string>
   <!-- Instructions how to allow the camera access for the app -->
-  <string name="Send.cameraUnavailabeMessage.android">Para permitir el acceso a la cámara, ve a «Ajustes», selecciona «Aplicaciones», busca la aplicación «EasyETZ» y selecciona la opción «Permisos»</string>
+  <string name="Send.cameraUnavailabeMessage.android">Para permitir el acceso a la cámara, ve a «Ajustes», selecciona «Aplicaciones», busca la aplicación «MSM» y selecciona la opción «Permisos»</string>
   <!-- Permission required to access camera -->
-  <string name="Send.cameraUnavailabeTitle.android">EasyETZ no tiene permitido el acceso a la cámara</string>
+  <string name="Send.cameraUnavailabeTitle.android">MSM no tiene permitido el acceso a la cámara</string>
   <!-- Camera not allowed message -->
   <string name="Send.cameraunavailableMessage">Ve a Ajustes para activar el acceso a la cámara.</string>
   <!-- Camera not allowed alert title -->
-  <string name="Send.cameraUnavailableTitle">EasyETZ no tiene permisos para acceder a la cámara</string>
+  <string name="Send.cameraUnavailableTitle">MSM no tiene permisos para acceder a la cámara</string>
   <!-- Warning when sending to self. -->
   <string name="Send.containsAddress">El destino es tu propia dirección. No puedes hacerte un envío a ti mismo.</string>
   <!-- Could not create transaction alert title -->
@@ -590,8 +590,8 @@
   <string name="Settings.currencySettings">Configuración de moneda</string>
   <!-- Join Early access label -->
   <string name="Settings.earlyAccess">Únete al acceso anticipado</string>
-  <!-- Are you enjoying EasyETZ alert message body -->
-  <string name="Settings.enjoying">¿Te gusta EasyETZ?</string>
+  <!-- Are you enjoying MSM alert message body -->
+  <string name="Settings.enjoying">¿Te gusta MSM?</string>
   <!-- Face ID spending limit label -->
   <string name="Settings.faceIdLimit">Límite de gastos con Face ID</string>
   <!-- Redeem the funds stored on this private key. -->
@@ -621,7 +621,7 @@
   <!-- Unlink/delete your wallet from the current device. -->
   <string name="Settings.wipe">Desvincular de este dispositivo</string>
   <!-- Share data view body -->
-  <string name="ShareData.body">Ayuda a mejorar EasyETZ compartiendo tus datos anónimos con nosotros. Esto no incluye ninguna información financiera. Respetamos tu privacidad financiera.</string>
+  <string name="ShareData.body">Ayuda a mejorar MSM compartiendo tus datos anónimos con nosotros. Esto no incluye ninguna información financiera. Respetamos tu privacidad financiera.</string>
   <!-- Share data header -->
   <string name="ShareData.header">¿Compartir datos?</string>
   <!-- Share data switch label. -->
@@ -629,7 +629,7 @@
   <!-- button label -->
   <string name="StartPaperPhrase.againButtonTitle">Apunta nuevamente la clave en papel</string>
   <!-- Paper key explanation text. -->
-  <string name="StartPaperPhrase.body">Tu clave de papel es la única manera de restaurar tu EasyETZ si pierdes tu teléfono, o te lo roban, se rompe o se actualiza.\n\nTe mostraremos una lista de palabras para apuntar en un trozo de papel y guardarlo en un sitio seguro.</string>
+  <string name="StartPaperPhrase.body">Tu clave de papel es la única manera de restaurar tu MSM si pierdes tu teléfono, o te lo roban, se rompe o se actualiza.\n\nTe mostraremos una lista de palabras para apuntar en un trozo de papel y guardarlo en un sitio seguro.</string>
   <!-- button label -->
   <string name="StartPaperPhrase.buttonTitle">Apuntar la clave en papel</string>
   <!-- Argument is date -->
@@ -637,7 +637,7 @@
   <!-- button label -->
   <string name="StartViewController.createButton">Crear nuevo monedero</string>
   <!-- Start view message -->
-  <string name="StartViewController.message">La forma más segura de usar EasyETZ.</string>
+  <string name="StartViewController.message">La forma más segura de usar MSM.</string>
   <!-- Recover your wallet from a backup -->
   <string name="StartViewController.recoverButton">Recuperar monedero</string>
   <!-- Syncing view connectiong state header text -->
@@ -677,14 +677,14 @@
   <!-- Fingerprint Is Not Setup -->
   <string name="TouchIdSettings.disabledWarning.title.android">La autenticación por huellas digitales no está habilitada</string>
   <!-- Touch Id screen label -->
-  <string name="TouchIdSettings.label">Utiliza tu huella digital para desbloquear EasyETZ y enviar dinero hasta un límite establecido.</string>
+  <string name="TouchIdSettings.label">Utiliza tu huella digital para desbloquear MSM y enviar dinero hasta un límite establecido.</string>
   <!-- Link Text (see TouchIdSettings.customizeText) -->
   <string name="TouchIdSettings.linkText">Pantalla de límite de gasto del Touch ID</string>
   <!-- Spending Limit: b100,000 ($100) -->
   <string name="TouchIdSettings.spendingLimit">Límite de gasto: %1$s (%2$s)</string>
   <!-- Touch id switch label. -->
-  <string name="TouchIdSettings.switchLabel">Activa Touch ID para EasyETZ</string>
-  <!-- Enable fingerprint for this wallet called EasyETZ -->
+  <string name="TouchIdSettings.switchLabel">Activa Touch ID para MSM</string>
+  <!-- Enable fingerprint for this wallet called MSM -->
   <string name="TouchIdSettings.switchLabel.android">Habilita la autenticación por huellas digitales</string>
   <!-- Touch ID settings view title -->
   <string name="TouchIdSettings.title">Touch ID</string>
@@ -734,7 +734,7 @@
   <string name="Transaction.sentTo">enviado a %1$s</string>
   <!-- eg. Starting balance: $50.00 -->
   <string name="Transaction.starting">Saldo inicial: %1$s</string>
-  <!-- e.g. "[The money you paid was a] Fee for token transfer: EasyETZ" (EasyETZ is the token that was transfered) -->
+  <!-- e.g. "[The money you paid was a] Fee for token transfer: MSM" (MSM is the token that was transfered) -->
   <string name="Transaction.tokenTransfer">Comisión por transferencia de token: %1$s</string>
   <!-- Waiting to be confirmed string -->
   <string name="Transaction.waiting">Esperando confirmación. Algunos comerciantes requieren confirmación para completar una transacción. Tiempo estimado: 1-2 horas.</string>
@@ -843,7 +843,7 @@
   <!-- Instruction to touch the sensor for fingerprint authentication -->
   <string name="UnlockScreen.touchIdInstructions.android">Toca el sensor</string>
   <!-- TouchID prompt text -->
-  <string name="UnlockScreen.touchIdPrompt">Desbloquea tu EasyETZ.</string>
+  <string name="UnlockScreen.touchIdPrompt">Desbloquea tu MSM.</string>
   <!-- Device authentication body -->
   <string name="UnlockScreen.touchIdPrompt.android">Desbloquea tu dispositivo Android para continuar.</string>
   <!-- Unlock with TouchID accessibility label -->
@@ -853,9 +853,9 @@
   <!-- Wallet unlocked message -->
   <string name="UnlockScreen.unlocked">Cartera desbloqueada</string>
   <!-- Update PIN caption text -->
-  <string name="UpdatePin.caption">Recuerda este PIN. Si lo olvidas, no podrás acceder a tu EasyETZ.</string>
+  <string name="UpdatePin.caption">Recuerda este PIN. Si lo olvidas, no podrás acceder a tu MSM.</string>
   <!-- PIN creation info. -->
-  <string name="UpdatePin.createInstruction">Tu PIN se usará para desbloquear EasyETZ y enviar dinero.</string>
+  <string name="UpdatePin.createInstruction">Tu PIN se usará para desbloquear MSM y enviar dinero.</string>
   <!-- Update PIN title -->
   <string name="UpdatePin.createTitle">Establecer PIN</string>
   <!-- Update PIN title -->
@@ -889,7 +889,7 @@
   <!-- Authorize transaction with touch id message -->
   <string name="VerifyPin.touchIdMessage">Autorizar esta transacción</string>
   <!-- 'No wallet' warning for watch app -->
-  <string name="Watch.noWalletWarning">Abre la aplicación EasyETZ en iPhone para configurar tu cartera.</string>
+  <string name="Watch.noWalletWarning">Abre la aplicación MSM en iPhone para configurar tu cartera.</string>
   <!-- Dismiss button label -->
   <string name="Webview.dismiss">Descartar</string>
   <!-- Webview loading error message -->
@@ -897,9 +897,9 @@
   <!-- Updating webview message -->
   <string name="Webview.updating">Actualizando...</string>
   <!-- Welcome screen text. (?) will be replaced with the help icon users should look for. -->
-  <string name="Welcome.body">EasyETZwallet ha cambiado su nombre por el de EasyETZ, con un nuevo aspecto y algunas características nuevas.\n\nSi necesitas ayuda, busca el (?) en la parte superior derecha de la mayoría de las pantallas.</string>
+  <string name="Welcome.body">MSMwallet ha cambiado su nombre por el de MSM, con un nuevo aspecto y algunas características nuevas.\n\nSi necesitas ayuda, busca el (?) en la parte superior derecha de la mayoría de las pantallas.</string>
   <!-- Top title of welcome screen -->
-  <string name="Welcome.title">¡Bienvenido a EasyETZ!</string>
+  <string name="Welcome.title">¡Bienvenido a MSM!</string>
   <!-- Wipe wallet alert message -->
   <string name="WipeWallet.alertMessage">¿Seguro que quieres eliminar esta cartera?</string>
   <!-- Wipe wallet alert title -->
@@ -913,7 +913,7 @@
   <!-- Instructions for unlinking the wallet -->
   <string name="WipeWallet.startMessage">Desvincula tu monedero para eliminarlo de este dispositivo. Una vez que tu monedero esté desvinculado, puedes iniciar un nuevo monedero o recuperar un monedero diferente en este dispositivo.</string>
   <!-- Start wipe wallet view warning -->
-  <string name="WipeWallet.startWarning">Ya no podrás acceder a tu cartera EasyETZ actual desde este dispositivo. El saldo se mantendrá en la frase.</string>
+  <string name="WipeWallet.startWarning">Ya no podrás acceder a tu cartera MSM actual desde este dispositivo. El saldo se mantendrá en la frase.</string>
   <!-- Unlink this wallet from this device. -->
   <string name="WipeWallet.title">Desvincular monedero</string>
   <!-- Wipe wallet button title -->
