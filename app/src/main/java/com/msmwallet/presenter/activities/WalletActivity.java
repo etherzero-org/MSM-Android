@@ -396,7 +396,7 @@ public class WalletActivity extends BRActivity implements InternetManager.Connec
 
             String d1 = df.format(d);
 
-            float d2 = Double.valueOf(d1).floatValue();
+            double d2 = convertToDouble(d1,0);
 
             double e1  = (double)-1/(d2*50);
             double e2 = e1*10000;
