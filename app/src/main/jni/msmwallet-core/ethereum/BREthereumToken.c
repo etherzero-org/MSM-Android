@@ -318,8 +318,8 @@ static struct BREthereumTokenRecord tokens[] = {
                 "ELKONIC",
                 "",
                 8,
-                "#41c1c7",
-                "#41c7b6",
+                "#3b95ed",
+                "#a2ccf6",
                 {TOKEN_BRD_DEFAULT_GAS_LIMIT},
                 {{{.u64 = {TOKEN_BRD_DEFAULT_GAS_PRICE_IN_WEI_UINT64, 0, 0, 0}}}},
                 1
